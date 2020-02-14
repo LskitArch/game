@@ -81,9 +81,6 @@
       "SITE_URL": "http://website.test"
     }
   },
-  "gitHooks": {
-    "pre-commit": "lint-staged"
-  },
   "lint-staged": {
     "*.js": [
       "vue-cli-service lint",
